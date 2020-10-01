@@ -43,7 +43,7 @@ To integrate with a tooltip library, follow these steps:
    `instance.getCurrentDelay()` whenever the user attempts to show a tooltip
 1. Whenever a tooltip is shown, call `instance.show()`
 1. Whenever a tooltip is hidden, call `instance.hide()`
-1. Enjoy smart tooltip experience
+1. Enjoy a smart tooltip experience
 
 You can create a single `SmartTooltipDelay` instance for the entire app or you can create instances for each button toolbar.
 
