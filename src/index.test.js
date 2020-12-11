@@ -1,10 +1,10 @@
-import smartTooltipDelay from './';
+import SmartTooltipDelay from './';
 
 let delayHandler;
 
 beforeEach(() => {
   jest.useFakeTimers();
-  delayHandler = new smartTooltipDelay({
+  delayHandler = new SmartTooltipDelay({
     delay: 600,
     noDelay: 0,
     resetAfterTime: 2500,
